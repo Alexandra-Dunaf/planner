@@ -1,4 +1,4 @@
-rootProject.name = 'spring-microservice'
+rootProject.name = 'planner-microservices'
 
 includeBuild 'eureka-server'
 includeBuild 'eureka-client'
