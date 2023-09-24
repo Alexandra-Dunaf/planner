@@ -7,29 +7,24 @@
         <compositeConfiguration>
           <compositeBuild compositeDefinitionSource="SCRIPT">
             <builds>
-              <build path="$PROJECT_DIR$/eureka-server" name="eureka-server">
+              <build path="$PROJECT_DIR$/planner-server" name="planner-server">
                 <projects>
-                  <project path="$PROJECT_DIR$/eureka-server" />
+                  <project path="$PROJECT_DIR$/planner-server" />
                 </projects>
               </build>
-              <build path="$PROJECT_DIR$/eureka-client" name="eureka-client">
+              <build path="$PROJECT_DIR$/planner-gateway" name="planner-gateway">
                 <projects>
-                  <project path="$PROJECT_DIR$/eureka-client" />
+                  <project path="$PROJECT_DIR$/planner-gateway" />
                 </projects>
               </build>
-              <build path="$PROJECT_DIR$/api-gateway" name="api-gateway">
+              <build path="$PROJECT_DIR$/planner-config" name="planner-config">
                 <projects>
-                  <project path="$PROJECT_DIR$/api-gateway" />
+                  <project path="$PROJECT_DIR$/planner-config" />
                 </projects>
               </build>
-              <build path="$PROJECT_DIR$/eureka-client-2" name="eureka-client-2">
+              <build path="$PROJECT_DIR$/planner-entity" name="planner-entity">
                 <projects>
-                  <project path="$PROJECT_DIR$/eureka-client-2" />
-                </projects>
-              </build>
-              <build path="$PROJECT_DIR$/github-config-server" name="github-config-server">
-                <projects>
-                  <project path="$PROJECT_DIR$/github-config-server" />
+                  <project path="$PROJECT_DIR$/planner-entity" />
                 </projects>
               </build>
             </builds>
@@ -40,56 +35,19 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/api-gateway" />
-            <option value="$PROJECT_DIR$/eureka-client" />
-            <option value="$PROJECT_DIR$/eureka-client-2" />
-            <option value="$PROJECT_DIR$/eureka-server" />
-            <option value="$PROJECT_DIR$/github-config-server" />
+            <option value="$PROJECT_DIR$/planner-config" />
+            <option value="$PROJECT_DIR$/planner-entity" />
+            <option value="$PROJECT_DIR$/planner-gateway" />
+            <option value="$PROJECT_DIR$/planner-server" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/api-gateway" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/planner-entity" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/api-gateway" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-client" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/eureka-client" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-client-2" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/eureka-client-2" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/eureka-server" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/eureka-server" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/github-config-server" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/github-config-server" />
+            <option value="$PROJECT_DIR$/planner-entity" />
           </set>
         </option>
       </GradleProjectSettings>
